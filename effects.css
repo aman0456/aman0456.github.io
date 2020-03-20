@@ -1,33 +1,18 @@
 #AboutMe{
   background-color: #f2f2f2;
   /*font-family: 'Bellefair', serif;*/
-  font-size: 16px;
+  font-size: 20px;
 }
 #Projects{
   background-color: #f2f2f2;
   /*font-family: 'Bellefair', serif;*/
-  font-size: 16px;
-}
-#hobbies{
-  background-color: #f2f2f2;
-  /*font-family: 'Lora', serif;*/
-  font-size: 20px;
-}
-#contact{
-  background-color: #f2f2f2;
-  /*font-family: 'Lora', serif;*/
-  font-size: 20px;
-}
-#form{
-  background-color: #f2f2f2;
-  /*font-family: 'Elsie Swash Caps', serif;*/
   font-size: 20px;
 }
 
 body, html {
-    height: 100%;
-    margin: 0;
-    /* font-size: 12px; */
+  height: 100%;
+  margin: 0;
+  font-family: 'Times New Roman', serif;
 }
 
 .hero-image {
