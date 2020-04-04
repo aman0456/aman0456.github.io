@@ -1,3 +1,4 @@
 connectify/
 demos/
 **/.DS_Store
+.vscode/
