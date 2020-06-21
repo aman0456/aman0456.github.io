@@ -13,6 +13,11 @@
   /*font-family: 'Bellefair', serif;*/
   font-size: 17px;
 }
+#Research{
+	background-color: #f2f2f2;
+	/*font-family: 'Bellefair', serif;*/
+	font-size: 17px;
+  }
 
 body, html {
   height: 100%;
@@ -79,6 +84,9 @@ body, html {
 }
 #linkimg2 {
   width: 8%;
+}
+#linkimg3 {
+	width: 13%;
 }
 
 table, th, td {
