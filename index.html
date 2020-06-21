@@ -34,9 +34,8 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="#AboutMe">About Me</a></li>
-          <li><a href="#Isrc">ISRC</a></li>
-          <li><a href="#Projects">Projects</a></li>
+		  <li><a href="#AboutMe">About Me</a></li>
+		  <li><a href="#Projects">Projects</a></li>
           <li><a href="./pdfs/resume.pdf">My Resume</a></li>
         </ul>
       </div>
@@ -98,40 +97,46 @@
     <br><br><br><br>
   </div>
   <br>
-
-  <!-- <div id="Isrc" class="container-fluid">
-    <br><br>
-    <center>
-      <h1> Indian Scientists' Response to CoViD-19 </h1><br><br>
-    </center>
-    <img src="img/Jaipur.jpg" style="float:right; width:25%">
-    <img src="img/mainBuilding.jpg" style="float:left; width:30%">
-    Indian Scientists’ Response to CoViD-19 (ISRC) is a voluntary group of over 200 concerned scientist citizens of India who have come together in this time of crisis to discuss the rapidly evolving situation with its dire need for science communication.
-
-    As scientists, we have a lot of role to play in the current pandemic caused by the novel coronavirus (SARS-CoV-2). Our volunteering work involves:
-    <br><br>
-    <ul>
-      <li> Trying to predict the pattern of coronavirus outbreak in India using the information available from other countries,</li>
-      
-      <li> Looking at the information spreading in india through a scientific lens to classify it as either true or hoax,</li>
-
-      <li> Spreading awareness about the current situation, and the dos and don'ts, through fascinating posters and videos, </li>
-
-      <li> Disseminating information which debunk the hoaxes circulating in the community through social media, and</li>
-
-      <li> Translating all the content in local indic langugages to expand the reach of legitimate information.</li>
-    </ul>
-    <br>
-    If you want to know more about us or volunteer to our group, please visit our <a href="https://indscicov.in/">website</a>. You can also find our social media handles on the webpage where we regularly post to spread our message in the community. Sharing our posts would be a great contribution in itself.
-    <br>
-    Any individual can contribute in the prevalent crisis by sharing only verified information on social media and educating others about the dos and dont's, and ofcourse, by staying at home :).
-    <br><br><br><br>
-  </div> -->
-  <br>
   <div id="Projects" class="container-fluid">
-    <br>
+	<br>
+	<center>
+		<h1> Research Projects </h1>
+		<br><br>
+	  </center>
+	  <table id="researchList" class="table">
+		<tr>
+		  <!-- <th rowspan="2"></th> -->
+		  <th style='width: 10%;'>Status</th>
+		  <th style='width: 25%;'>Title</th>
+		  <th style='width: 15%;'>Guide</th>
+		  <th style='width: 40%;'>Summary</th>
+		  <th style='width: 10%;'>Paper</th>
+		</tr>
+		<tr class="success">
+		  <td> Published in <a href="https://conf.researchr.org/track/ismm-2020/ismm-2020#event-overview">ISMM 2020</a> </td>
+		  <td> Garbage Collection in a Finite Liveness Domain </td>
+		  <td> <a href="https://www.cse.iitb.ac.in/~as/" target="_blank">Prof. Amitabha Sanyal</a> </td>
+		  <td> Designed a technique for static context-sensitive liveness analysis of functional languages by exploiting recurring liveness patterns </td>
+		  <td> <a href="https://dl.acm.org/doi/pdf/10.1145/3381898.3397208" target="_blank"><img src="img/link.png" id="linkimg3"></a> </td>
+		</tr>
+		<tr class="info">
+			<td> Submitted in <a href="https://neurips.cc/">NeurIPS 2020</a> </td>
+			<td> Extending the Foundations of Differential Privacy: Robustness and Flexibility </td>
+			<td> <a href="https://www.cse.iitb.ac.in/~mp/" target="_blank">Prof. Manoj Prabhakaran</a> </td>
+			<td> Proposed two new concepts, Robust Privacy and Flexible Accuracy, to extend the notion of differential privacy for highly sensitive functions</td>
+			<td> <a href="https://www.cse.iitb.ac.in/~mp/pub/DPextension.pdf" target="_blank"><img src="img/link.png" id="linkimg3"></a> </td>
+		</tr>
+		<tr class="success">
+			<td> Bachelor's Thesis </td>
+			<td> Boolean Functional Synthesis of Multiplication Circuits </td>
+			<td> <a href="https://www.cse.iitb.ac.in/~supratik/" target="_blank">Prof. Supratik Chakraborty</a> </td>
+			<td> Proved hardness results and relaxed contraints of syn-NNF circuits to better analyze synthesis of multiplication circuits</td>
+			<td> - </td>
+		</tr>
+	</table>
+	<br><br>
     <center>
-      <h1> Projects </h1>
+      <h1> Course Projects </h1>
       <br><br>
     </center>
     <table id="projectList" class="table">
@@ -198,7 +203,7 @@
         <td> Statistical NLP </td>
         <td> Generated questions from a text corpus for the user to answer and auto-graded the answers </td>
         <td> - </td>
-        <td> <a href="demos/finalVideo1.mov">Demo1</a> <a href="demos/finalVideo2.mov">Demo2</a> </td>
+        <td> <a href="demos/finalVideo1.mov">Demo1</a> | <a href="demos/finalVideo2.mov">Demo2</a> </td>
       </tr>
       <tr class="info">
         <td> Parallelized Fast Fourier Transform </td>
@@ -311,6 +316,28 @@
     </table>
     <br><br><br><br>
   </div>
+  <br>
+  <div id="Isrc" class="container-fluid">
+    <br><br>
+    <center>
+      <h1> Indian Scientists' Response to CoViD-19 </h1><br><br>
+    </center>
+    <!-- <img src="img/Jaipur.jpg" style="float:right; width:25%">
+    <img src="img/mainBuilding.jpg" style="float:left; width:30%"> -->
+    Indian Scientists’ Response to CoViD-19 (ISRC) is a voluntary group of over 200 concerned scientist citizens of India who have come together in this time of crisis to discuss the rapidly evolving situation with its dire need for science communication. Please visit our <a href="https://indscicov.in/">website</a> to know more about our volunteering work which involves:
+	<br><br>
+	<ul>
+      <li> Trying to predict the pattern of coronavirus outbreak in India using the information available from other countries,</li>
+      
+      <li> Looking at the information spreading in India through a scientific lens to classify it as either true or hoax,</li>
+
+      <li> Disseminating information which debunk the hoaxes circulating in the community through social media, and</li>
+
+      <li> Translating all the content in local indic langugages to expand the reach of legitimate information.</li>
+    </ul>
+    <br><br>
+  </div>
+  
 </body>
 
 </html>
