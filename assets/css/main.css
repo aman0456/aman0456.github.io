@@ -2822,10 +2822,19 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		width: calc(100% + 2em);
+		/* font-size: large; */
 		margin: 0 0 3em -2em;
 		padding: 0;
 		list-style: none;
 	}
+
+		.features .image img {
+			max-width: 75%;
+			border-radius: 50%;
+			display: inline-block;
+			margin: 0 0 1em 0;
+			width: 200px;
+		}
 
 		.features li {
 			width: calc(33.33333% - 2em);
