@@ -2844,24 +2844,26 @@ input, select, textarea {
 	}
 
 		.features .image img {
-			max-width: 75%;
-			border-radius: 50%;
 			display: inline-block;
 			margin: 0 0 1em 0;
-			width: 200px;
-			height: 150px;
+			width: 120px;
+			height: 120px;
+			object-fit: contain;
 		}
 
 		.features li {
-			width: calc(33.33333% - 2em);
+			width: calc(25% - 2em);
 			margin-left: 2em;
-			margin-top: 3em;
+			margin-top: 0;
 			padding: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 		}
 
-			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
-				margin-top: 0;
-			}
+		.features p {
+			font-size: 0.85em;
+		}
 
 			.features li > :last-child {
 				margin-bottom: 0;
@@ -2921,24 +2923,35 @@ input, select, textarea {
 	}
 
 		.papers .image img {
-			max-width: 75%;
-			/* border-radius: 50%; */
 			display: inline-block;
-			margin: 0 0 1em 0;
-			width: 200px;
-			height: 150px;
+			margin: 0 0 0.75em 0;
+			width: 100px;
+			height: 75px;
+			object-fit: contain;
+		}
+
+		.papers h2 {
+			font-size: 1.15em;
+		}
+
+		.papers p {
+			font-size: 0.8em;
 		}
 
 		.papers li {
-			width: calc(25% - 2em);
+			width: calc(16.666% - 2em);
 			margin-left: 2em;
-			margin-top: 3em;
+			margin-top: 0;
 			padding: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
 		}
 
-			.papers li:nth-child(1), .papers li:nth-child(2), .papers li:nth-child(3), .papers li:nth-child(4) {
-				margin-top: 0;
-			}
+		.papers li .paper-link {
+			margin-top: auto;
+			font-size: 0.8em;
+		}
 
 			.papers li > :last-child {
 				margin-bottom: 0;
